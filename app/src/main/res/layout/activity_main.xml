@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/clique_no_bot_o_para_sortear"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:rotationY="0"
+            android:text="@string/_0"
+            android:textAlignment="center"
+            android:textSize="60sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:layout_weight="0.8"
+            android:backgroundTint="#5900FF"
+            android:text="@string/sortear"
+
+            android:textColor="#FDFBFF"
+            android:textSize="60sp"
+            app:cornerRadius="0dp"
+            app:strokeColor="#6200EE"
+            app:strokeWidth="3dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

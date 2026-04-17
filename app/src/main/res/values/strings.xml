@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sorteio</string>
+    <string name="button">Button</string>
+    <string name="sortear">Sortear</string>
+    <string name="_0">0</string>
+    <string name="clique_no_bot_o_para_sortear">Clique no botão para sortear</string>
+</resources>
